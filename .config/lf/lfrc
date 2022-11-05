@@ -1,0 +1,11 @@
+set hidden
+set hiddenfiles oohyeahbaby
+
+map e $nvim "$f"
+map <enter> $bash -c "nvim \"$f\""
+map <c-q> quit
+
+# bat has a config file at ~/.config/bat/config which allows default cli options
+map i $bash -c ~/.config/lf/bat_inspec.sh
+set previewer ~/.config/lf/bat.sh
+
