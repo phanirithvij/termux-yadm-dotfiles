@@ -1,8 +1,8 @@
 set hidden
 set hiddenfiles oohyeahbaby
 
-map e $nvim "$f"
-map <enter> $bash -c "nvim \"$f\""
+map e $$EDITOR "$f"
+map <enter> $bash -c "$EDITOR \"$f\""
 map <c-q> quit
 
 # bat has a config file at ~/.config/bat/config which allows default cli options

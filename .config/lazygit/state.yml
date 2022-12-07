@@ -1,13 +1,14 @@
 lastupdatecheck: 0
 recentrepos:
-- /data/data/com.termux/files/home/rusty/russ
-- /data/data/com.termux/files/home/mitmproxy
-- /data/data/com.termux/files/home/revanced-builder
-- /data/data/com.termux/files/home/searx
-- /data/data/com.termux/files/home/go/src/github.com/phanirithvij/stickerbot
-- /data/data/com.termux/files/home/gogo/awesome/gocovsh
-- /data/data/com.termux/files/home/gogo/forks/gdu
+- /data/data/com.termux/files/home/Levenshtein
 - /data/data/com.termux/files/home/termux-desktop
+- /data/data/com.termux/files/home/searx
+- /data/data/com.termux/files/home/rusty/russ
+- /data/data/com.termux/files/home/rusty/sample_webbrowser
+- /data/data/com.termux/files/home/rusty/webbrowser-rs
+- /data/data/com.termux/files/home/rusty/jni-rs
+- /data/data/com.termux/files/home/revanced-builder
+- /data/data/com.termux/files/home/gogo/forks/gdu
 startuppopupversion: 5
 customcommandshistory:
 - git reset --soft HEAD~1

@@ -13,7 +13,7 @@ commands = ["lf", "ls -1a"]
 layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"
 number_of_panes = 2
 session_name = "updates"
-commands = ["pkg upgrade", "cargo install-update --all && cargo install russ --git https://github.com/phanirithvij/russ --branch dependencies"]
+commands = ["pkg upgrade", "cargo install-update --all && cargo install russ --git https://github.com/ckampfe/russ && cargo cache -e"]
 
 [systemsetup]
 number_of_panes = 1

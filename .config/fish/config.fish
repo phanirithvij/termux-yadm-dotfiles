@@ -23,3 +23,6 @@ set -gx PATH "$PNPM_HOME" $PATH
 
 # https://starship.rs/#fish
 #starship init fish | source
+
+# Created by `pipx` on 2022-11-29 04:48:02
+set PATH $PATH /data/data/com.termux/files/home/.local/bin
