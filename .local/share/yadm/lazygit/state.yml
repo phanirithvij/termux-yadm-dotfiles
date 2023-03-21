@@ -1,6 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz
+- /data/data/com.termux/files/home
 startuppopupversion: 5
 customcommandshistory:
 - git commit --amend --edit
