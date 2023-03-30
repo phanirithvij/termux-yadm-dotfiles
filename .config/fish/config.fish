@@ -21,6 +21,28 @@ set -gx PNPM_HOME "/data/data/com.termux/files/home/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
+abbr -a -- tma 'tmux a'
+abbr -a -- ll 'exa --long --header --icons --git'
+abbr -a -- wls 'viddy -p -d -n 0.1 -c exa --long --header --icons -B --color=always'
+abbr -a -- at 'tmux a'
+abbr -a -- e exit
+abbr -a -- lac lazyconf
+abbr -a -- opop xdg-open
+abbr -a -- laz lazygit
+abbr -a -- llh 'exa --long --header --icons --git --all'
+abbr -a -- l exa
+abbr -a -- ls exa
+abbr -a -- psaux 'viddy -p -d -n 0.5 -c ps aux'
+abbr -a -- dufw 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 2 -c duf -only-mp /storage/emulated'
+abbr -a -- t tmux
+abbr -a -- c clear
+abbr -a -- unset 'set --erase'
+abbr -a -- wduf 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 2 -c duf -only-mp /storage/emulated'
+abbr -a -- wlsa 'viddy -p -t -d -n 0.1 -c exa --long --header --icons -B --all --color=always'
+abbr -a -- lla 'exa --long --header --icons --git --all'
+abbr -a -- ports 'nmap -p0-65535 127.0.0.1'
+abbr -a -- gdu 'cd ~/../../; gdu'
+
 # https://starship.rs/#fish
 #starship init fish | source
 

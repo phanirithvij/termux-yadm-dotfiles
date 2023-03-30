@@ -2,5 +2,6 @@
     "colorscheme": "twilight",
     "relativeruler": true,
     "savecursor": true,
-    "saveundo": true
+    "saveundo": true,
+    "wordwrap": true
 }
