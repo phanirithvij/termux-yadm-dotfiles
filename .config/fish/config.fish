@@ -39,6 +39,8 @@ abbr -a -- c clear
 abbr -a -- unset 'set --erase'
 abbr -a -- wduf 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 2 -c duf -only-mp /storage/emulated'
 abbr -a -- wlsa 'viddy -p -t -d -n 0.1 -c exa --long --header --icons -B --all --color=always'
+abbr -a -- apps "viddy -p -d -n 0.2 -c \"adb shell 'dumpsys activity activities | grep windows' | awk '{print \\\$3}' | awk NF | cut -d'}' -f1 | awk '!x[\\\$0]++'\""
+abbr -a -- o 'bash -c "source /sdcard/termuxlauncher/.apps-launcher && launch \\$(launch -l | fzf)"'
 abbr -a -- lla 'exa --long --header --icons --git --all'
 abbr -a -- ports 'nmap -p0-65535 127.0.0.1'
 abbr -a -- gdu 'cd ~/../../; gdu'
@@ -48,3 +50,4 @@ abbr -a -- gdu 'cd ~/../../; gdu'
 
 # Created by `pipx` on 2022-11-29 04:48:02
 set PATH $PATH /data/data/com.termux/files/home/.local/bin
+
