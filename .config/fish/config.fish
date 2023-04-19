@@ -51,3 +51,4 @@ abbr -a -- gdu 'cd ~/../../; gdu'
 # Created by `pipx` on 2022-11-29 04:48:02
 set PATH $PATH /data/data/com.termux/files/home/.local/bin
 
+zoxide init fish | source
