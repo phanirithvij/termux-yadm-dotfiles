@@ -29,6 +29,7 @@ abbr -a -- e exit
 abbr -a -- lac lazyconf
 abbr -a -- opop xdg-open
 abbr -a -- laz lazygit
+abbr -a -p command lar 'pushd (yq ".recentrepos | @tsv" ~/.config/lazygit/state.yml | sed -e "s/\"//g" -e "s/\\\\t/\n/g" | fzfalias lazygit-repos); lazygit; popd'
 abbr -a -- llh 'exa --long --header --icons --git --all'
 abbr -a -- l exa
 abbr -a -- ls exa
@@ -43,7 +44,7 @@ abbr -a -- apps "viddy -p -d -n 0.2 -c \"adb shell 'dumpsys activity activities 
 abbr -a -- o 'bash -c "source /sdcard/termuxlauncher/.apps-launcher && launch \\$(launch -l | fzf)"'
 abbr -a -- lla 'exa --long --header --icons --git --all'
 abbr -a -- ports 'nmap -p0-65535 127.0.0.1'
-abbr -a -- gdu 'cd ~/../../; gdu'
+abbr -a -- gduf 'pushd ~/../../; gdu; popd'
 
 # https://starship.rs/#fish
 #starship init fish | source
@@ -52,3 +53,6 @@ abbr -a -- gdu 'cd ~/../../; gdu'
 set PATH $PATH /data/data/com.termux/files/home/.local/bin
 
 zoxide init fish | source
+abbr -a -- cd 'z'
+
+navi widget fish | source

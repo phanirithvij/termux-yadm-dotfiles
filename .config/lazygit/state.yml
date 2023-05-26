@@ -1,5 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
+- /data/data/com.termux/files/home/dragonfly/build-opt/fiber
+- /data/data/com.termux/files/home/dragonfly/helio
+- /data/data/com.termux/files/home/termux-packages
+- /data/data/com.termux/files/home/tg-termux-test/tg
+- /data/data/com.termux/files/home/tg-termux-test/td
+- /data/data/com.termux/files/home/tg-termux-test/python-telegram
 - /data/data/com.termux/files/home/termux-launcher/termuxlauncher-fork-qwreey75
 - /data/data/com.termux/files/home/alpine-setup
 - /data/data/com.termux/files/home/Levenshtein

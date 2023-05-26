@@ -9,3 +9,24 @@ map <c-q> quit
 map i $bash -c ~/.config/lf/bat_inspec.sh
 set previewer ~/.config/lf/bat.sh
 
+# lfrc https://github.com/gokcehan/lf/issues/579#issuecomment-1015633229
+cmd fzf-restore ${{
+	ids="$(echo -ne '\n'              | \
+		trash-restore                   | \
+		awk '$1 ~ /^[0-9]+/ {print $0}' | \
+		fzf --multi                     | \
+		awk '{print $1}'                | \
+		sed -z 's/\n/,/g;s/,$/\n/')"
+	echo $ids | trash-restore
+	clear
+}}
+map U fzf-restore
+
+# https://github.com/gokcehan/lf/issues/873#issuecomment-1186223702
+set ifs "\n"
+cmd trash %{{
+	for f in $fx; do
+		trash-put "$f"
+	done
+}}
+map <delete> :trash
