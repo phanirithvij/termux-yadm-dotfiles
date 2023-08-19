@@ -1,9 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
-- /data/data/com.termux/files/home
+    - /data/data/com.termux/files/home
 startuppopupversion: 5
 customcommandshistory:
-- git commit --amend --edit
-- git rebase --continue
-- git reset --soft HEAD~1
+    - git commit --amend --edit
+    - git rebase --continue
+    - git reset --soft HEAD~1
 hidecommandlog: true

@@ -1,7 +1,6 @@
 {
     "clipboard": "internal",
     "colorscheme": "twilight",
-    "mouse": false,
     "relativeruler": true,
     "savecursor": true,
     "saveundo": true,

@@ -1,23 +1,32 @@
 lastupdatecheck: 0
 recentrepos:
-- /data/data/com.termux/files/home/dragonfly/build-opt/fiber
-- /data/data/com.termux/files/home/dragonfly/helio
-- /data/data/com.termux/files/home/termux-packages
-- /data/data/com.termux/files/home/tg-termux-test/tg
-- /data/data/com.termux/files/home/tg-termux-test/td
-- /data/data/com.termux/files/home/tg-termux-test/python-telegram
-- /data/data/com.termux/files/home/termux-launcher/termuxlauncher-fork-qwreey75
-- /data/data/com.termux/files/home/alpine-setup
-- /data/data/com.termux/files/home/Levenshtein
-- /data/data/com.termux/files/home/termux-desktop
-- /data/data/com.termux/files/home/searx
-- /data/data/com.termux/files/home/rusty/russ
-- /data/data/com.termux/files/home/rusty/sample_webbrowser
-- /data/data/com.termux/files/home/rusty/webbrowser-rs
-- /data/data/com.termux/files/home/rusty/jni-rs
-- /data/data/com.termux/files/home/revanced-builder
-- /data/data/com.termux/files/home/gogo/forks/gdu
+    - /data/data/com.termux/files/home/redis/dragonfly/helio
+    - /data/data/com.termux/files/home/redis/dragonfly
+    - /data/data/com.termux/files/home/redis/twemproxy
+    - /data/data/com.termux/files/home/redis/redis
+    - /data/data/com.termux/files/home/gogo/bakitupi
+    - /data/data/com.termux/files/home/gogo/duf
+    - /data/data/com.termux/files/home/gogo/serf
+    - /data/data/com.termux/files/home/ansible_it
+    - /data/data/com.termux/files/home/Levenshtein
+    - /data/data/com.termux/files/home/Levenshtein/extern/rapidfuzz-cpp
+    - /data/data/com.termux/files/home/termux-packages
+    - /data/data/com.termux/files/home/tg-termux-test/tg
+    - /data/data/com.termux/files/home/tg-termux-test/td
+    - /data/data/com.termux/files/home/tg-termux-test/python-telegram
+    - /data/data/com.termux/files/home/termux-launcher/termuxlauncher-fork-qwreey75
+    - /data/data/com.termux/files/home/alpine-setup
+    - /data/data/com.termux/files/home/termux-desktop
+    - /data/data/com.termux/files/home/searx
+    - /data/data/com.termux/files/home/rusty/russ
+    - /data/data/com.termux/files/home/rusty/sample_webbrowser
+    - /data/data/com.termux/files/home/rusty/webbrowser-rs
+    - /data/data/com.termux/files/home/rusty/jni-rs
+    - /data/data/com.termux/files/home/revanced-builder
+    - /data/data/com.termux/files/home/gogo/forks/gdu
 startuppopupversion: 5
 customcommandshistory:
-- git reset --soft HEAD~1
+    - git reset --soft HEAD~1
+    - lf
+    - git push -u origin fork
 hidecommandlog: false
